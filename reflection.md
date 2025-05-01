@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Student Email:  email
+Student Name:  Noah Bamberger
+Student Email:  ntbamber@syr.edu
 
 ## Instructions
 
