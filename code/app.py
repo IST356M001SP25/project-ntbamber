@@ -6,11 +6,11 @@ from visualize import plot_distribution_by_group, plot_mortality_by_state
 # --- Load Data ---
 DATA_PATH = "cache/cleaned_diabetes_data.csv"
 
-@st.cache_data
+@st.cache_data # Cache the data loading function
 def load_data():
     return pd.read_csv(DATA_PATH)
 
-df = load_data()
+df = load_data() # Load the data
 
 # --- Sidebar Filters ---
 st.sidebar.title("Filter Options")
