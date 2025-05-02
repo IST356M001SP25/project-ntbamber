@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+This project allowed me to bring all the skills I learned throughout this course together to create an application. I got practice working with real world health data from the CDC's API. I learned how to use this specific API and I learned pagination to help me get around the 1000 line return limit. I got practice in filtering and cleaning data to prepare it to be visualized using a streamlit dashboard. One of the biggest things I struggled with was cleaning my data for visualization. I was trying to utilize a percentage based column that was returning percents that did not make sense (e.g. percentage of adults diagnosed with diabetes in a state being over 100%). To answer this I pivoted to displaying a different metric where the results made more sense. 
